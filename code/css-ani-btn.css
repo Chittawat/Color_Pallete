@@ -1,0 +1,31 @@
+.btn{
+	outline: none;
+	border:none;
+	cursor:pointer;
+	display: block;
+	position:relative;
+	background:orange;
+	font-size: 16px;
+	font-weight:300px;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding:25px 80px;
+	margin: 0 auto;
+	border-radius: 20px;
+	box-shadow: 0px 6px darkorange;
+}
+
+.btn:hover{
+	box-shadow: 0px 4px darkorange;
+	top: 2px;
+}
+
+.btn:focus{
+
+}
+
+.btn:active{
+	box-shadow: none;
+	top:6px;
+}
