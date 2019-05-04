@@ -22,7 +22,5 @@ p:hover{
 
 .box:hover{
 	transform:translateX(300px);
-	transition-property: transform;
-	transition-duration: 2s;
-	transition-timing-function: ease;
+	transition: transform 2s ease 1s;
 }
