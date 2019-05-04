@@ -1,0 +1,50 @@
+h1{
+	font-size:50px;
+}
+
+.container{
+	margin:4em;
+	text-align:center;
+}
+
+.loader{
+	border:30px solid grey;
+	border-top-color: lightblue;
+	border-bottom-color: lightgreen;
+	width:200px;
+	height: 200px;
+	margin: 0 auto;
+	border-radius:50%;
+	animation-name: spin;
+	animation-duration:5s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+@keyframes spin{
+	0%{
+		transform:rotate(0deg);
+	}
+	20%{
+		border-bottom-color: yellow;
+		border-top-color:lightpink;
+	}
+	40%{
+		border-bottom-color: orange;
+		border-top-color:red;
+	}
+
+	60%{
+		border-bottom-color: red;
+		border-top-color:orange;
+	}
+
+	60%{
+		border-bottom-color: lightpink;
+		border-top-color:yellow;
+	}
+	100%{
+		transform:rotate(360deg);
+	}
+}
+

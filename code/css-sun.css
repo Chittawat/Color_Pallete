@@ -1,0 +1,62 @@
+body{
+	animation:sky 20s infinite linear;
+
+}
+
+@keyframes sky{
+	0%{
+		background-color: black;
+	}
+	10%{
+		background-color: pink;
+	}
+	30%{
+		background-color: lightblue;
+	}
+
+	80%{
+		background-color:orange;
+	}
+	90%{
+		background-color:red;
+	}
+	100%{
+		background-color: black;
+	}
+}
+
+@keyframes sun{
+	0%{
+		transform:translateY(200px);
+	}
+	25%{
+		transform:translate(350px,80px);
+	}
+	50%{
+		transform:translateX(700px);
+	}
+	75%{
+		transform:translate(1050px,80px);
+	}
+	100%{
+		transform:translate(1400px,200px);
+	}
+}
+
+.grass{
+	background:green;
+	height:600px;
+	width:100%;
+	position:absolute;
+}
+
+.sun{
+	background-color: yellow;
+	width:200px;
+	height:200px;
+	border-radius: 50%;
+	animation-name: sun;
+	animation-iteration-count: infinite;
+	animation-duration: 20s;
+	animation-timing-function: linear;
+}
